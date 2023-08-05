@@ -1,6 +1,8 @@
 function App() {
   return (
-    <></>
+    <>
+      AppJs Test
+    </>
   );
 }
 
