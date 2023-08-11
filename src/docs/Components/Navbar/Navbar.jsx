@@ -1,16 +1,17 @@
 import React from 'react';
 import * as S from './Navbar.style.jsx';
 
-const InstaTextLogo = '../../../Img/InstagramTextLogo.svg';
-const HomeIcon = '../../../Img/HomeIcon.svg';
-const Search = '../../../Img/Search.svg';
-const Compass = '../../../Img/Compass.svg';
-const Reels = '../../../Img/Reels.svg';
-const Message = '../../../Img/Message.svg';
-const Alarm = '../../../Img/Alarm.svg';
-const Plus = '../../../Img/Plus.svg';
-const Burger = '../../../Img/Burger.svg';
-const Profile = '../../../Img/Profile.jpg';
+//IMG
+const InstaTextLogo = '../../../Img/NavIcon/InstagramTextLogo.svg';
+const HomeIcon = '../../../Img/NavIcon/HomeIcon.svg';
+const Search = '../../../Img/NavIcon/Search.svg';
+const Compass = '../../../Img/NavIcon/Compass.svg';
+const Reels = '../../../Img/NavIcon/Reels.svg';
+const Message = '../../../Img/NavIcon/Message.svg';
+const Alarm = '../../../Img/NavIcon/Alarm.svg';
+const Plus = '../../../Img/NavIcon/Plus.svg';
+const Burger = '../../../Img/NavIcon/Burger.svg';
+const Profile = '../../../Img/NavIcon/Profile.jpg';
 
 const Navbar = () => {
     return (
