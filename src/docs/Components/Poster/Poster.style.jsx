@@ -7,7 +7,7 @@ export const PostContainer = s.div`
     user-select:none;
 
     
-    margin-left: 60vh;
+    margin-left: 40vw;
     margin-top: 5vh;
     width: 500px;
     border-bottom: 1px solid black;

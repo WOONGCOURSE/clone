@@ -14,8 +14,6 @@ const Story = () => {
     return (
         <S.StoryContainer>
             <S.Items>
-                <S.LButton onClick={Left}>Left</S.LButton>
-                <S.RButton>Right</S.RButton>
                 <S.Item>
                     <S.icon src={Story1}/>
                     <S.ItemText>SeoungHyun1</S.ItemText>

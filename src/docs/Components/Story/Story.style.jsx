@@ -7,11 +7,11 @@ export const StoryContainer = s.div`
     user-select:none;
 
     font-family: 'Raleway', sans-serif;
-    margin-left: 15%;
+    margin-left: 20vw;
     width: 1105px;
     text-align: center;
     background-color: red;
-    overflow: hidden;
+    overflow-x: hidden;
 `
 
 export const Items = s.div`
