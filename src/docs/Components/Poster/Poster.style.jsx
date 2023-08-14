@@ -10,7 +10,7 @@ export const PostContainer = s.div`
     margin-left: 35vw;
     margin-top: 5vh;
     width: 600px;
-    border-bottom: 1px solid black;
+    border-bottom: 0.5px solid lightgrey;
 `;
 
 //Header
@@ -67,7 +67,7 @@ export const Icon = s.img`
 
 //Footer
 export const Footer = s.div`
-    margin-bottom: 30px
+    margin-bottom: 30px;
 `;
 
 export const Footer_Title = s.div`
