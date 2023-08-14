@@ -11,13 +11,12 @@ export const StoryContainer = s.div`
     margin-left: 20vw;
     width: 1105px;
     text-align: center;
-    background-color: red;
-
     display: flex;
 
 `;
 
 export const Items = s.div`
+    margin-top: 2vh;
     overflow-x: scroll;
     scroll-behavior: smooth;
     &::-webkit-scrollbar {
@@ -33,6 +32,7 @@ export const Item = s.div`
 
 export const icon = s.img`
     width: 66px;
+    height: 66px;
     border-radius: 100%;
     border: 0.5px solid lightgrey;
 `;
@@ -42,7 +42,25 @@ export const ItemText = s.div`
 `;
 
 export const LeftButton = s.button`
+    position: absolute;
+    margin-top: 25px;
+    margin-top: 3.5vh;
+    background-color: lightgray;
+    height: 35px;
+    border-radius: 100%;
+    border: none;
 `
 
 export const RightButton = s.button`
+    position: absolute;
+    right: 22%;
+    margin-top: 3.5vh;
+    background-color: lightgray;
+    height: 35px;
+    border-radius: 100%;
+    border: none;
+`
+
+export const buttonImg = s.img`
+    width: 18px;
 `

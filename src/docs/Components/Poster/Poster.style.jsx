@@ -7,9 +7,9 @@ export const PostContainer = s.div`
     user-select:none;
 
     
-    margin-left: 40vw;
+    margin-left: 35vw;
     margin-top: 5vh;
-    width: 500px;
+    width: 600px;
     border-bottom: 1px solid black;
 `;
 
@@ -35,7 +35,7 @@ export const Header_PlusIMG = s.img`
     line-height: 40px;
     width: 30px;
     height: 30px;
-    margin-left: 300px;
+    margin-left: 21vw;
     float: right;
 `;
 
@@ -44,7 +44,7 @@ export const Body = s.div`
 `;
 
 export const Body_Img = s.img`
-    width: 500px;
+    width: 100%;
     height: 600px;
     border-radius: 10px;
     margin-top: 10px;
