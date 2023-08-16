@@ -9,7 +9,7 @@ export const StoryContainer = s.div`
     font-family: 'Raleway', sans-serif;
     
     margin-left: 20vw;
-    width: 1105px;
+    width: 58vw;
     text-align: center;
     display: flex;
 
