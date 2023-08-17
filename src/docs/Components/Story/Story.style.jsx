@@ -1,6 +1,6 @@
-import s from 'styled-components';
+import styled from 'styled-components';
 
-export const StoryContainer = s.div`
+export const StoryContainer = styled.div`
     -webkit-user-select:none;
     -moz-user-select:none;
     -ms-user-select:none;
@@ -15,7 +15,7 @@ export const StoryContainer = s.div`
 
 `;
 
-export const Items = s.div`
+export const Items = styled.div`
     margin-top: 2vh;
     overflow-x: scroll;
     scroll-behavior: smooth;
@@ -25,23 +25,23 @@ export const Items = s.div`
     display: flex;
 `;
 
-export const Item = s.div`
+export const Item = styled.div`
     margin-right: 30px;
     width: 95px
 `;
 
-export const icon = s.img`
+export const icon = styled.img`
     width: 66px;
     height: 66px;
     border-radius: 100%;
     border: 0.5px solid lightgrey;
 `;
 
-export const ItemText = s.div`
+export const ItemText = styled.div`
     
 `;
 
-export const LeftButton = s.button`
+export const LeftButton = styled.button`
     position: absolute;
     margin-top: 25px;
     margin-top: 3.5vh;
@@ -51,7 +51,7 @@ export const LeftButton = s.button`
     border: none;
 `
 
-export const RightButton = s.button`
+export const RightButton = styled.button`
     position: absolute;
     right: 22%;
     margin-top: 3.5vh;
@@ -61,6 +61,6 @@ export const RightButton = s.button`
     border: none;
 `
 
-export const buttonImg = s.img`
+export const buttonImg = styled.img`
     width: 18px;
 `

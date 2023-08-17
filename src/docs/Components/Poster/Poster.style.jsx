@@ -1,6 +1,6 @@
-import s from 'styled-components';
+import styled from 'styled-components';
 
-export const PostContainer = s.div`
+export const PostContainer = styled.div`
     -webkit-user-select:none;
     -moz-user-select:none;
     -ms-user-select:none;
@@ -14,24 +14,24 @@ export const PostContainer = s.div`
 `;
 
 //Header
-export const Header = s.div`
+export const Header = styled.div`
     display: flex;
     flex-direction: row;
 `;
 
-export const Header_Img = s.img`
+export const Header_Img = styled.img`
     border-radius: 100%;
     width: 40px;
     height: 40px;
 `;
 
-export const Header_ID = s.span`
+export const Header_ID = styled.span`
     font-size: 15px;
     line-height: 40px;
     margin-left: 1%;
 `;
 
-export const Header_PlusIMG = s.img`
+export const Header_PlusIMG = styled.img`
     line-height: 40px;
     width: 30px;
     height: 30px;
@@ -40,10 +40,10 @@ export const Header_PlusIMG = s.img`
 `;
 
 //Body
-export const Body = s.div`
+export const Body = styled.div`
 `;
 
-export const Body_Img = s.img`
+export const Body_Img = styled.img`
     width: 100%;
     height: 600px;
     border-radius: 10px;
@@ -52,10 +52,10 @@ export const Body_Img = s.img`
 `;
 
 //Icons
-export const Icons = s.div`
+export const Icons = styled.div`
 `;
 
-export const Icon = s.img`
+export const Icon = styled.img`
     width: 25px;
     height: 25px;
     margin-right: 10px;
@@ -66,14 +66,14 @@ export const Icon = s.img`
 `;
 
 //Footer
-export const Footer = s.div`
+export const Footer = styled.div`
     margin-bottom: 30px;
 `;
 
-export const Footer_Title = s.div`
+export const Footer_Title = styled.div`
     
 `;
 
-export const Footer_Body = s.div`
+export const Footer_Body = styled.div`
     
 `;
